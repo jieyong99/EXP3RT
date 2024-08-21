@@ -44,4 +44,8 @@ sh shell/test_imdb.sh
 sh shell/test_amazon-book.sh
 ```
 
-you can check the results with running test_result_inspect.py
+check the results with command:
+
+```sh
+python test_result_inspect.py
+```
