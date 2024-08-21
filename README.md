@@ -29,7 +29,7 @@ merge the model for inference with command:
 
 ```sh
 conda activate merge
-pip install transformsers
+pip install transformers
 (you might need to install additional libraries to merge with no error)
 sh shell/merge.sh
 ```
