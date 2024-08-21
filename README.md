@@ -1,7 +1,5 @@
 # EXP3RT
 
-Repo for paper [Review-driven Personalized Preference Reasoning with Large Language Models for Recommendation](https://arxiv.org/abs/2408.06276)
-
 ## Quick Start
 
 First, download the dataset from (google drive link), and unzip the file in root folder.
