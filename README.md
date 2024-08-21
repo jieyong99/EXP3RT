@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-First, download the dataset from https://drive.google.com/drive/folders/1F7aN-r2ixAaOBkxBm_-VJd_iCQyPo4Ih?usp=drive_link, https://drive.google.com/drive/folders/1VQ5W_GQcJCherIN1vzvOI6e5qLIgXt71?usp=drive_link, https://drive.google.com/drive/folders/14Vd4choyshdvt1vq4yc4K5GKN8XKt0pc?usp=drive_link, and unzip the file in root folder.
+First, download the dataset from https://drive.google.com/drive/folders/1s__h5DOm-IQpiL5SZ3G1o-I7wOHlS1qC?usp=drive_link, and unzip the file in root folder.
 
 Next, follow the steps below ⬇️
 
