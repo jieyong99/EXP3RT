@@ -4,9 +4,9 @@ Repo for paper [Review-driven Personalized Preference Reasoning with Large Langu
 
 ## Quick Start
 
-First, transfer the data folder into the EXP3RT folder.
+First, download the dataset from (google drive link), and unzip the file in root folder.
 
-Follow the steps below ⬇️
+Next, follow the steps below ⬇️
 
 ### Set Up
 
