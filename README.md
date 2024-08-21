@@ -2,9 +2,7 @@
 
 ## Quick Start
 
-Download the dataset:
-
-Next, follow the steps below ⬇️
+Follow the steps below ⬇️
 
 ### Set Up
 
