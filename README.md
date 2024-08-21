@@ -22,6 +22,7 @@ train with command:
 
 ```sh
 conda activate qlora
+(you might need to install additional libraries to train with no error)
 sh shell/train_imdb.sh
 sh shell/train_amazon-book.sh
 ```
@@ -40,7 +41,7 @@ inference with command:
 ```sh
 conda activate vllm
 pip install vllm
-(you might need to install additional libraries to merge with no error)
+(you might need to install additional libraries to inference with no error)
 sh shell/test_imdb.sh
 sh shell/test_amazon-book.sh
 ```
