@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-First, download the dataset from https://drive.google.com/drive/folders/1s__h5DOm-IQpiL5SZ3G1o-I7wOHlS1qC?usp=drive_link, and place the data folder in root folder.
+First, download the dataset from (), and place the data folder in root folder.
 
 Next, follow the steps below ⬇️
 
