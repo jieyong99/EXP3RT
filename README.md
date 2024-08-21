@@ -43,3 +43,5 @@ pip install vllm
 sh shell/test_imdb.sh
 sh shell/test_amazon-book.sh
 ```
+
+you can check the results wiht test_result_inspect.py
