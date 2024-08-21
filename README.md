@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-First, download the dataset from (), and place the data folder in root folder.
+
 
 Next, follow the steps below ⬇️
 
