@@ -32,5 +32,3 @@ NCCL_P2P_DISABLE=1 accelerate launch \
     --lora_dropout $dropout \
     --group_by_length \
     --seed $seed 
-    # --resume_from_checkpoint \
-    # --lora_weights "/home/jieyong99/EXP3RT/imdb_trained_seed42/checkpoints/checkpoint-epoch10"
