@@ -2,6 +2,8 @@
 
 ## Quick Start
 
+Before training the model, we have split some of the train datasets due to the size of the dataset, so you need to merge them into the original train dataset using merge_data.py (set the paths) and then proceed with the training.
+
 Follow the steps below ⬇️
 
 ### Set Up
