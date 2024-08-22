@@ -17,8 +17,8 @@ NCCL_P2P_DISABLE=1 accelerate launch \
     --config_file ./shell/accelerate_config.yaml train_preference.py \
     --base_model $base_model \
     --dataset $dataset \
-    --train_data_path "data/${dataset}/preference_extraction/feature_train.json" \
-    --val_data_path "data/${dataset}/preference_extraction/feature_valid.json" \
+    --train_data_path "data/${dataset}/preference_extraction/preference_train.json" \
+    --val_data_path "data/${dataset}/preference_extraction/preference_valid.json" \
     --output_dir "${dataset}_preference_r${lora_r}_alpha${lora_alpha}_seed${seed}" \
     --batch_size $batch_size \
     --micro_batch_size $micro_batch_size \
