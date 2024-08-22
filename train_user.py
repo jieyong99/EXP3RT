@@ -221,14 +221,15 @@ def train(
             
             input_text = (
                 "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n"
-                "Given a review written by a user, list about the \"preference\" the user liked and disliked about the {s_item}, under [Like] and [Dislike] in bullet points, respectively."
-                "If there is nothing to mention about like/dislike, simply write \"None.\" under the corresponding tag. DO NOT write any content that is not revealed in the review.\n"
-                f"Here is the review written by the user : {data_point['input']}\n"
+                f"These are the user's preferences about movies: {data_point['input']}\n"
+                "Based on this preferences, point out the personality of the user under [Like] and [Dislike] in bullet point, respectively."
+                "If there is nothing to mention about like/dislike, simply write "None." under the corresponding tag.\n"        
+                
                 "### Output Format:\n"
                 "[Like]"
-                "- Encapsulate the \"preference\" user liked about the item in bullet points.\n"
+                "- Encapsulate the "preferences" of the user in bullet points.\n"
                 "[Dislike]"
-                "- Encapsulate the \"preference\" user disliked about the item in bullet points.<|eot_id|>"
+                "- Encapsulate the "preferences" of the user in bullet points.<|eot_id|>"
                 "<|start_header_id|>assistant<|end_header_id|>"
             )
 
@@ -244,14 +245,15 @@ def train(
         
             input_text = (
                 "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n"
-                "Given a review written by a user, list about the \"preference\" the user liked and disliked about the {s_item}, under [Like] and [Dislike] in bullet points, respectively."
-                "If there is nothing to mention about like/dislike, simply write \"None.\" under the corresponding tag. DO NOT write any content that is not revealed in the review.\n"
-                f"Here is the review written by the user : {data_point['input']}\n"
+                f"These are the user's preferences about books: {data_point['input']}\n"
+                "Based on this preferences, point out the personality of the user under [Like] and [Dislike] in bullet point, respectively."
+                "If there is nothing to mention about like/dislike, simply write "None." under the corresponding tag.\n"        
+                
                 "### Output Format:\n"
                 "[Like]"
-                "- Encapsulate the \"preference\" user liked about the item in bullet points.\n"
+                "- Encapsulate the "preferences" of the user in bullet points.\n"
                 "[Dislike]"
-                "- Encapsulate the \"preference\" user disliked about the item in bullet points.<|eot_id|>"
+                "- Encapsulate the "preferences" of the user in bullet points.<|eot_id|>"
                 "<|start_header_id|>assistant<|end_header_id|>"
             )
 
