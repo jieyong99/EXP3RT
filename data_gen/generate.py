@@ -17,7 +17,7 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 TOTAL_COST = 0  # making this a global variable, be aware this may lead to issues in concurrent scenarios
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--api_owner", choices=["di"], default="di", help="Make sure you have config/profilel_info.json and both org and api info in it.")
+    parser.add_argument("--api_owner", choices=["your_api_key"], default="your_api_key", help="Make sure you have config/profile_info.json and both org and api info in it.")
     parser.add_argument("--input_path", type=str)
     parser.add_argument("--task", choices=["generate_preference", "generate_user_side", "generate_item_side", "generate_rationale"], type=str, required=True, help="Which task to generate data for.")
     parser.add_argument("--prompt_path", type=str, default=None)
