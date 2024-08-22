@@ -11,6 +11,13 @@ conda env create -f qlora.yaml
 conda env create -n merge
 conda env create -n vllm
 ```
+### Dataset
+
+make dataset for training:
+
+```sh
+sh data_gen/generate.sh
+```
 
 ### Train & Inference
 
