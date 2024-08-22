@@ -1,6 +1,6 @@
 #!/bin/sh
 
-seed=42
+seed=425
 base_model='meta-llama/Meta-Llama-3-8B-Instruct'
 dataset='amazon-book'
 batch_size=32
