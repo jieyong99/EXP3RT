@@ -19,6 +19,15 @@ train with command:
 ```sh
 conda activate qlora
 (you might need to install additional libraries to train with no error)
+
+## for step 1. preference extraction
+sh shell/train_preference.sh
+
+## for step 2. profile construction
+sh shell/train_user.sh
+sh shell/train_item.sh
+
+## for step 3. reasoning-enhanced rating prediction
 sh shell/train_imdb.sh
 sh shell/train_amazon-book.sh
 ```
