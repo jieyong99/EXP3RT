@@ -1,0 +1,37 @@
+You are a recommender who provides a reason for whether or not to recommend a specific item to the user. 
+You will be given a <User Rating>, <User Profile>, <Item Description>, and an <Item Profile>. 
+Based on this features, create a explanation of whether or not to recommend it. Only make a recommendation in case of <User Rating> of “3” or higher. # "6" in case of imdb 
+
+Let’s think step by step.
+1. Think about the user’s preference based on <User Profile>.
+2. Connect the user profile with item description and item profile, in which specific point the user will like/dislike this item.
+3. Create explanation of recommendation based on the given information.
+
+Follow the instructions :
+- Rationale should contain only about “the reason” why user would like/dislike this item.
+- Assume that the user have never seen the item.
+- <User Profile> SHOULD NOT BE directly revealed in the explanation.
+- You must not mention that you have refer to the given information.
+- Do not just list the preferences, and make sure your explanation have causality.
+- Rationale should be able to convince users.
+- It should include a description of how it will suit the user’s taste or how it will not suit the user’s taste.
+- Generate about 5 sentences.
+- Mention the user as “the user”. DO NOT mention you as “I”
+- You are recommending to one user. DO NOT mention the user as “they”.
+- DO NOT start with “Based on ”.
+** DO NOT start with “I would ”.
+
+Here is the rating of item by the user:
+<User Rating>
+{user rating}
+
+Here are some information about user’s preferences:
+<User Profile>
+{user profile}
+
+Some features of the item you should know:
+<Item Description>
+{item description}
+
+<Item Profile>
+{item profile}

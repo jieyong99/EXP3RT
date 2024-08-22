@@ -1,0 +1,14 @@
+These are users’ preferences about the item : 
+{preferences}
+
+Based on this preferences, point out the “preference” people liked and disliked about the item under [Like] and [Dislike] in bullet point, respectively. 
+If there is nothing to mention about like/dislike, simply write “None.” under the corresponding tag. List only about the preferences. DO NOT mention “People” or “They”.
+
+### Output Format:
+[Like]
+- Summarize the “preference” people liked about the item in bullet points.
+
+[Dislike]
+- Summarize the “preference” people disliked about the item in bullet points.
+
+Make sure each preferences are in a completed form. Generate less then 150 tokens.

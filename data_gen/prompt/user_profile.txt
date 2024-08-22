@@ -1,0 +1,14 @@
+These are the user’s preferences about items: 
+{preferences}
+
+Based on this preferences, point out the personality of the user under [Like] and [Dislike] in bullet point, respectively. 
+If there is nothing to mention about like/dislike, simply write “None.” under the corresponding tag. List only about the preferences. DO NOT mention “Based on ∼”.
+
+### Output Format:
+[Like]
+- Summarize the “preferences” of the user in bullet points.
+
+[Dislike]
+- Summarize the “preferences” of the user in bullet points.
+
+Each personalities should be about 5.
