@@ -131,8 +131,7 @@ def prepare_model_input_rationale(prompt:str, data_path:str):
         input_temp["user_profile"] = d["user_profile"]
         input_temp["item_description"] = d["item_description"]
         input_temp["item_profile"] = d["item_profile"]
-        input_temp["instruction"] = "You are a recommender who provides a reason for whether or not to recommend a specific item to a user. \nYou have have extensive information about the user and item : <User Persona>, <Item Description> and <Item Synopsis>.\nBased on this preferences, create a explanation of whether or not to recommend it. \n\nLet\'s think step by step. \n1. Read <User Persona> and think about the user\'s preference. \n2. Connect the user\'s preference with item description and item knowledge, in which specific point the user will like/dislike this item. \n3. Create explanation of recommendation based on the given information. \n4. Rate how much the user will like it on a scale of 5.0."
-
+        
         input_temp['model_input'] = prompt.format(**{
             "user_rating": d["user_rating"],
             "user_profile": d["user_profile"],
