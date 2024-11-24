@@ -1,3 +1,4 @@
+# Use this yaml file to create envrionment for training with QLoRA.
 name: qlora
 channels:
   - pytorch
