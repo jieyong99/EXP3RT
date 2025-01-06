@@ -199,7 +199,7 @@ def train(
                 if len(parts) > 1:
                     try:
                         rating = float(parts[-1].strip())
-                        new_rating = max(0, rating - 1)  # 1을 빼고 0 이상으로 유지
+                        new_rating = max(0, rating - 1)  
                         return f"{parts[0]}[User Average Rating]\n{new_rating:.1f}"
                     except ValueError:
                         return text
@@ -209,13 +209,12 @@ def train(
                 if len(parts) > 1:
                     try:
                         rating = float(parts[-1].strip())
-                        new_rating = max(0, rating - 1)  # 1을 빼고 0 이상으로 유지
+                        new_rating = max(0, rating - 1)  
                         return f"{parts[0]}[Item Average Rating]\n{new_rating:.1f}"
                     except ValueError:
                         return text
                 return text
 
-            # User Persona와 Item Synopsis의 평균 레이팅 처리
             data_point['user_persona'] = imdb_process_user_rating(data_point['user_persona'])
             data_point['item_synopsis'] = imdb_process_item_rating(data_point['item_synopsis'])
             
@@ -271,7 +270,6 @@ def train(
                         return text
                 return text
 
-            # User Persona와 Item Synopsis의 평균 레이팅 처리
             data_point['user_persona'] = process_user_rating(data_point['user_persona'])
             data_point['item_synopsis'] = process_item_rating(data_point['item_synopsis'])
             
@@ -429,7 +427,7 @@ def train(
 
         
         print("\nSample Rating Comparisons:")
-        for true, pred, text in sample_comparisons[:10]:  # 여기를 3개 값을 언패킹하도록 수정
+        for true, pred, text in sample_comparisons[:10]:
             print(f"TRUE: {true}  PRED: {pred}")
 
         rmse = np.sqrt(mean_squared_error(true_ratings, pred_ratings))
