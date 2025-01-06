@@ -150,7 +150,6 @@ def test(
                         return text
                 return text
 
-            # User Persona와 Item Synopsis의 평균 레이팅 처리
             data_point['user_persona'] = process_user_rating(data_point['user_persona'])
             data_point['item_synopsis'] = process_item_rating(data_point['item_synopsis'])
             
